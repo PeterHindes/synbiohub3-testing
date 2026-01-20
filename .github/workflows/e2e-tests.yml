@@ -20,6 +20,7 @@ jobs:
       - name: Build and start services
         run: |
           cd endtoend-interaction-tests/docker-compose
+          export GIT_REVISION=$(git rev-parse HEAD)
           docker compose up --build -d
 
       - name: Wait for services to be healthy
