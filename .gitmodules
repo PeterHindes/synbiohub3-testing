@@ -1,0 +1,6 @@
+[submodule "old-backend"]
+	path = old-backend
+	url = git@github.com:SynBioHub/synbiohub.git
+[submodule "endtoend-interaction-tests"]
+	path = endtoend-interaction-tests
+	url = git@github.com:SynBioHub/synbiohub2-endtoend-tests.git
